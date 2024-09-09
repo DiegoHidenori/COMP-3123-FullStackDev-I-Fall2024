@@ -7,6 +7,7 @@ function max(a, b, c) {
     if (c > largest) largest = c;
     return largest;
 }
+console.log("Exercise 2");
 console.log(max (1,0,1));
 console.log(max (0,-10,-20));
 console.log(max (1000,510,440));
@@ -25,7 +26,7 @@ function right(str) {
     finalStr = arr.join("");
     return finalStr;
 }
-
+console.log("\nExercise 3");
 console.log(right("Python"));
 console.log(right("JavaScript"));
 console.log(right("Hi"));
@@ -39,7 +40,7 @@ function angle_Type(a) {
     else if (a == 180) return "Straight angle";
     else return "Not valid";
 }
-
+console.log("\nExercise 4");
 console.log(angle_Type(47))
 console.log(angle_Type(90))
 console.log(angle_Type(145))
@@ -64,7 +65,7 @@ function array_max_sum(arr, consNum) {
         return "Consecutive number out of range";
     }
 }
-
-console.log(array_max_sum([1, 2, 3, 14, 5], 2))
-console.log(array_max_sum([2, 3, 5, 1, 6], 3))
-console.log(array_max_sum([9, 3, 5, 1, 7], 2))
+console.log("\nExercise 5");
+console.log(array_max_sum([1, 2, 3, 14, 5], 2));
+console.log(array_max_sum([2, 3, 5, 1, 6], 3));
+console.log(array_max_sum([9, 3, 5, 1, 7], 2));
