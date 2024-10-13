@@ -1,7 +1,7 @@
 {
   "name": "comp-3123-exercises",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lab Exercise 06",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,13 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego Tsukayama",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "express-validator": "^7.2.0",
     "mongoose": "^8.7.1"
   },
   "devDependencies": {
